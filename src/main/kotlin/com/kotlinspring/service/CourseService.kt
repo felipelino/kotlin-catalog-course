@@ -41,7 +41,7 @@ class CourseService(
         } ?: courseRepository.findAll()
 
         return courses.map {
-            CourseDTO(it.id, it.name, it.category)
+            CourseDTO(it.id, it.name, it.category, it.instructor?.id)
         }
     }
 
