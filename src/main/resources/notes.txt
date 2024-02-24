@@ -1,0 +1,7 @@
+
+To activate profile VM Options:
+-Dspring.profiles.active=prod
+
+
+H2 Database:
+Access: http://localhost:8080/h2-console
